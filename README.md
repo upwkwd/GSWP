@@ -110,3 +110,17 @@ notes for introductory pandas module in python.
       c   3     5      4
       a   0     2      1
    ```
+* we can sort values by specific columns also\
+  d.sort_values(by= ['cat','dog'])
++ rank method ------>
+  - d.rank
+    - average
+    - min
+    - max
+    - first
+## Statistics
+* sum ->
+  - d.sum()
+  - d.sum(axis = 'columns', skipna = True or False)
+* cumsum -> cumulative sum
+* describe -> gives all values in one shot.
