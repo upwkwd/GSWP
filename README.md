@@ -38,4 +38,12 @@ notes for introductory pandas module in python.
       ```
       >>>b.values
       ```
-### **Indexing**
+### **Functionality**
+  ## Reindexing
+  It will apply to indexes to series and dataframe;
+  ```
+   c =  b.reindex([...])
+  ```
+  
+    
+    
