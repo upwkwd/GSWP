@@ -83,3 +83,30 @@ notes for introductory pandas module in python.
   c 2
   a 2
   ```
+   - for elementwise we have to use applymap
+     ```
+     >>> g = lambda x: x**2
+     >>> d.applymap(g)
+                cat   fox   dog
+      d   36    49     64
+      c   9     16     25
+      a   0     1      4
+     >>> d['fox].map(g)
+        fox
+      d  64
+      c  25
+      a  4
+      ```
+   ## Sorting and Ranking
+   ```
+   >>>d.sort_index()
+         cat   fox   dog
+      a   0     1      2
+      c   3     4      5
+      d   6     7      8
+   >>>d.sort_index(axis=1)
+          cat   dog   fox
+      d   6     8      7
+      c   3     5      4
+      a   0     2      1
+   ```
