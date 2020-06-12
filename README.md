@@ -1,5 +1,5 @@
 # GSWP
-notes for introductory pandas module in python.
+module in python.
 + pd.series
   - It gives an output of one index and column each.
   - functions in series method of pandas.
