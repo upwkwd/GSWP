@@ -124,3 +124,38 @@ module in python.
   - d.sum(axis = 'columns', skipna = True or False)
 * cumsum -> cumulative sum
 * describe -> gives all values in one shot.
+
+## Data Cleaning
+* dropna
+  - how
+  - axis
+* fillna
+* duplicated
+* drop_duplicates
+  - keep
+* replace
+* take
+* sample
+* get_dummies
+  - prefix = '...'
+* unique
+## Data Wrangling
+* unstack()
+* stack()
+* swaplevel
+* set_index
+* reset_index()
+* merge
+  - how
+    - inner
+    - outer
+    - left
+    - right
+  - left_index
+  - right_index
+  - left_on
+  - right_on
+* concat
+  - axis = "..."
+  - keys = [...]
+* combine_first(..)
